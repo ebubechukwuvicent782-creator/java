@@ -38,3 +38,32 @@ const numsThree = ['one', 'two', 'three']
 console.log(numsThree.length);
 
 console.log(numsThree[2])
+
+const personOne = {
+    fName: 'peter',
+    lname: 'paul',
+    email: 'PeterJohn@gmail.com',
+    gender: 'male',
+}
+const personTwo = {
+    fName: 'John',
+    lname: 'Saul',
+    email: 'JohnSaul@gmail.com',
+    gender: 'male',
+}
+const personThree = {
+    fName: 'Jane',
+    lname: 'Okoli',
+    email: 'JaneOkoli@gmail.com',
+    gender: 'female',
+}
+const personFour = {
+    fName: 'David',
+    lname: 'Elijah',
+    email: 'DavidElijah@gmail.com',
+   gender: 'male',
+}
+
+const firstNames = [personOne.fName, personTwo.fName, personThree.fName, personFour.fName]
+
+console.log(firstNames);
