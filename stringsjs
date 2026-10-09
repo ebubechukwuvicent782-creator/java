@@ -1,0 +1,53 @@
+// CONCATENTION OF STRINGS.
+const fName = 'oluwatobiloba'
+const lName = 'Paul'
+const fullName = fName+' '+lName
+console.log(fullName);
+
+//LENGTH OF A STRING
+console.log(fullName.length);
+
+
+if (fName.length <= 5) {
+    console.log('short name');
+}
+else if(fName.length >5 && fName.length <=10){
+    console.log('average length name');
+} else {
+    console.log('long name');
+}
+
+//FIND SUBSTRING
+const longstr = 'Hello my Name is Ebubechukwu, I am a student of flip to tech'
+const isPresent= longstr.indexOf('Ebubechukwu')
+console.log(isPresent);
+
+//SEARCH
+const search = longstr.search('flip')
+console.log(search);
+
+//REPLACING A SUBSTRING
+const newSen = longstr.replace('Ebubechukwu', 'Vincent')
+console.log(newSen);
+
+//TRIMMING A STRINGS
+const unTrim = ' Vincent '
+console.log(unTrim.length);
+
+const trimmed = unTrim.trim()
+console.log(trimmed.length);
+
+//CHANGING THE CASE OF STRINGS
+const strA = 'this was initially written in lowercase'
+const strB = 'THIS WAS INITIALLY WRITTEN IN UPPERCASE'
+
+console.log(strA.toUpperCase());
+console.log(strB.toLowerCase());
+
+//CONCAT METHOD
+const a = 'Hello'
+const b = 'Good Morning'
+const c = 'cunt'
+
+const longstring = a.concat(' ',b,' ',c)
+console.log(longstring);
