@@ -19,4 +19,24 @@ const fruits =['Apple', 'Orange', 'Watermelon', 'Banana']
  nums[5] =100
  console.log(nums);
  
- 
+ //pop(removes the last item)
+ nums.pop()
+ console.log(nums);
+
+const names = ['david','precious','trinity']
+names.pop();
+console.log(names);
+
+//splice(replaces an item)
+names.splice(1,1);
+console.log(names);
+
+nums.splice(1,1,20)
+console.log(nums);
+
+//shift(moves the first item)
+names.shift();
+console.log(names);
+
+nums.shift();
+console.log(nums);
