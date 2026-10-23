@@ -30,3 +30,6 @@
  //changing elements attributes
  const box=document.querySelector('#one')
  box.setAttribute('class','two')
+
+ const image=document.getElementById('img')
+ image.setAttribute('src','https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT-H4-wIuUkjZNcJyw6t8M8G7L_jsJ86bMnUrH80fLXYv_GMUQkb2QszuDLWHXnF-lkOC9_ypAEM5fM4XyM4t_YHudH1GxrJfYsbwT2SutTlud0dFS7ILzrRQ&usqp=CAc')
